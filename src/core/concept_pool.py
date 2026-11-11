@@ -95,7 +95,6 @@ def load_person_count_with_descendants(db, min_patients, path):
         if db is None:
             log("error", "pool.retrieve", level="ERROR", reason="db required to generate")
             return outcomes
-        # cache every concept with at least one patient so later, lower thresholds can reuse the file
         generate_person_count_with_descendants(db, 1, path)
         if not os.path.exists(path):
             return outcomes

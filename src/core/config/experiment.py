@@ -11,7 +11,7 @@ import copy
 MODELS = {
     "qwen3.6-27b": {
         "model_name": "Qwen/Qwen3.6-27B-FP8",
-        "base_url": "http://localhost:8000/v1",   # your vLLM server
+        "base_url": "http://localhost:8000/v1",
         "api_key": "token-not-needed",
         "temperature": 0,
         "enable_thinking": False,

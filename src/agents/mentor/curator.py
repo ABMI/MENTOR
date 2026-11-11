@@ -137,7 +137,6 @@ def build_nodes(llm, db, cfg):
         ingredient_concept_ids = state["ingredient_concept_ids"]
         ingredient_concepts = state["ingredient_concepts"]
 
-        # ablation: hand the downstream prompts the raw labels or the names alone, without the LLM summary
         if mode != "summary":
             for ingredient_concept_id in ingredient_concept_ids:
                 ingredient_info = ingredient_concepts[ingredient_concept_id]
