@@ -115,7 +115,7 @@ Patient-level data stay inside the institution. The self-hosted LLM receives con
 
 If you use this code, please cite:
 
-> T. Yang et al., MENTOR: An Evidence-Informed Large Language Model-Based Multi-Agent System for Efficient Selection of Institution-Specific Negative Control Outcomes, medRxiv (2026). doi: [to be added]
+> T. Yang et al., MENTOR: An Evidence-Informed Large Language Model-Based Multi-Agent System for Efficient Selection of Institution-Specific Negative Control Outcomes, medRxiv (2026). doi:10.64898/2026.11.10.26367768
 
 ## License
 
